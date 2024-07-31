@@ -91,7 +91,7 @@ app.get('/api/tours', (req, res) => {
         const tourStartDate = new Date(tour.start_date);
         const tourEndDate = new Date(tour.end_date);
 
-        const isLocationMatch = tour.location.includes(location);
+      const isLocationMatch = tour.location.toLowerCase().includes(location.toLowerCase());
         const isDateOverlap = (enteredStartDate <= tourEndDate) && (enteredEndDate >= tourStartDate);
 
         return isLocationMatch && isDateOverlap;
