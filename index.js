@@ -12,7 +12,7 @@ const tours = [
     {
         id: 1,
         name: 'Tour A',
-        location: 'Masaai Mara' && 'masaai mara',
+        location: 'Masaai Mara',
         start_date: '2024-08-01',
         end_date: '2030-12-31',
         visit: 'Game park ride, the big 5, the migration',
@@ -21,7 +21,7 @@ const tours = [
     {
         id: 2,
         name: 'Tour B',
-        location: 'Wild Waters' && 'wild waters',
+        location: 'Wild Waters',
         start_date: '2024-08-01',
         end_date: '2030-12-31',
         visit: 'Water slides and swimming pool',
@@ -30,7 +30,7 @@ const tours = [
     {
         id: 3,
         name: 'Tour C',
-        location: 'Diani' && 'diani',
+        location: 'Diani',
         start_date: '2024-08-01',
         end_date: '2030-12-31',
         visit: 'Ukunda Diani Beach, Swim with the Dolphins, ferry Ride',
@@ -39,7 +39,7 @@ const tours = [
     {
         id: 4,
         name: 'Tour D',
-        location: 'RiftValley' && 'riftvalley' && 'Nakuru',
+        location: 'RiftValley',
         start_date: '2024-08-01',
         end_date: '2030-12-31',
         visit: 'View Point, Lake Naivasha, Bogoria Hot springs, Flamingos and Hippos at Lake Nakuru, Lord Egerton Castle',
@@ -48,7 +48,7 @@ const tours = [
     {
         id: 5,
         name: 'Tour D',
-        location: 'Mt Kenya' && 'mt kenya',
+        location: 'Mt Kenya',
         start_date: '2024-08-01',
         end_date: '2030-12-31',
         visit: 'Hiking, Camping, the peaks of Mt Kenya and the snow.',
@@ -57,7 +57,7 @@ const tours = [
     {
         id: 6,
         name: 'Tour E',
-        location: 'Mombasa' && 'mombasa',
+        location: 'Mombasa',
         start_date: '2024-08-01',
         end_date: '2030-12-31',
         visit: 'Pirates beach, Ferry Ride, Mamba village, Fort Jesus, Haller park',
@@ -66,7 +66,7 @@ const tours = [
     {
         id: 7,
         name: 'Tour F',
-        location: 'Nairobi' && 'nairobi',
+        location: 'Nairobi',
         start_date: '2024-08-01',
         end_date: '2030-12-31',
         visit: 'Giraffe center, Mamba village, Natonal Meuseum, Nairobi national Park, Ngong Hills, Ololua Nature Trail, Nairobi Railway Meuseum',
